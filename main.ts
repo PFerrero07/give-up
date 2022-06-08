@@ -145,4 +145,4 @@ scene.setBackgroundImage(img`
 tiles.setCurrentTilemap(tilemap`level1`)
 tiles.placeOnRandomTile(mySprite, sprites.dungeon.collectibleInsignia)
 scene.cameraFollowSprite(mySprite)
-info.startCountdown(20)
+info.startCountdown(25)
