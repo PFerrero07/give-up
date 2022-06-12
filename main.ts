@@ -1,5 +1,5 @@
 scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.chestOpen, function (sprite, location) {
-    game.over(true)
+    game.over(true, effects.confetti)
 })
 let mySprite = sprites.create(img`
     . . . . . . . . . . . . . . . . 
@@ -145,4 +145,4 @@ scene.setBackgroundImage(img`
 tiles.setCurrentTilemap(tilemap`level1`)
 tiles.placeOnRandomTile(mySprite, sprites.dungeon.collectibleInsignia)
 scene.cameraFollowSprite(mySprite)
-info.startCountdown(20)
+info.startCountdown(28)
